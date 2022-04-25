@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+
+
+nav{
+   height: 167px;
+   max-width: 1728px;
+   display: flex;
+}
+ul{
+   display: flex;
+   margin-left: auto;
+   color: white;
+   text-align: center;
+
+}
+ ul li{
+   margin-left: auto 0;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 36px;
+   list-style: none;
+   justify-content: space-between;
+}
+li{
+   justify-content: space-around;
+   margin-right:10px;
+   font-family: 'Poppins';
+   height: 36px;
+   width: 173px;
+   font-weight: 700;
+   position: relative;
+}
+.searchBtn{
+   height: 40px;
+   width: 250px;
+   background-color:white;
+   display: flex;
+   border-radius: 19.5px;
+   justify-content: space-between;
+}
+li:hover{
+   color:#D5D905;
+   /* border-bottom: 4px solid #D5D905; */
+}
+li:hover::after{
+   content: "";
+   position: absolute;
+   height: 7px;
+   width: 7px;
+   border-radius: 50%;
+   bottom: -10px;
+   left: 50%;
+   background-color: #D5D905;
+}
+.searchSection{
+   height: 39px;
+   display: flex;
+   left: 1420px;
+   top: 44px;
+}
+input[type="search"]{
+   border-radius: 19.5px;
+   border:none;
+   width: 100%;
+   height: 100%;
+   outline: none;
+}
+.searchImg{
+   background-color: #D5D905;
+   padding: 2px;
+   border-radius: 50%;
+   place-items: center;
+   
+}
+.img1{
+   position: absolute;
+   /* width: 334px; */
+   height: 340px;
+   left: 900px;
+   top: 258px;
+}
+.top1{
+   position: absolute;
+   width: 792px;
+   height: 202px;
+   left: 134px;
+   top: 208px;
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 67px;
+   line-height: 100px;
+   letter-spacing: -0.045em;
+}
+.top2{
+   position: absolute;
+   width: 586px;
+height: 752px;
+   left: 134px;
+   top: 424px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 217%;
+}
+.unsplash1{
+   position: absolute;
+   /* width: 330px; */
+   height: 200px;
+   left: 1212px;
+   top: 380px;
+   z-index: -1;
+}
+.img2{
+   position: absolute;
+   width: 225.49px;
+   height: 225.49px;
+   left: 692px;
+   top: 613.74px;
+   transform: rotate(-21.53deg);
+}
+.btnSignin{
+   position: absolute;
+   width: 195px;
+   height: 59px;
+   left: 125px;
+   top: 715px;
+   
+   background: #116530;
+   border-radius: 24px;
+}
+.btnExplore{
+   position: absolute;
+   width: 195px;
+   height: 59px;
+   left: 377px;
+   top: 713px;
+   
+   border: 3px solid #116530;
+   box-sizing: border-box;
+   border-radius: 24px;
+}
